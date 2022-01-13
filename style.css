@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif, Verdana, Tahoma;
+    background-color: #B1D0E0;
+    color: #1A374D;
+}
+
+#logo *{
+    margin: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: start;
+}
+
+.container {
+    margin: 120px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    margin: 50px 30px;
+    font-weight: 700;
+    background-color: #1A374D;
+    color: #B1D0E0;
+    border: 5px solid #000000;
+}
+
+#hours{
+    padding: 100px;
+    border-radius: 150px;
+    font-size: 60pt;
+}
+
+#minutes{
+    padding: 60px;
+    border-radius: 100px;
+    font-size: 40pt;
+}
+
+#seconds{
+    padding: 20px;
+    border-radius: 80px;
+    font-size: 20pt;
+}
