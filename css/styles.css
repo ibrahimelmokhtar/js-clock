@@ -8,6 +8,8 @@
     color: #1A374D;
 }
 
+
+
 /* Logo */
 .logo__container {
     margin-top: 2rem;
@@ -15,7 +17,6 @@
     width: fit-content;
 }
 .logo__container *{
-    background-color: tomato;
     border-radius: 1rem;
 }
 #logo {
@@ -32,6 +33,7 @@
 }
 
 
+
 /* Displayed Time */
 .container {
     margin-top: 5rem;
@@ -40,7 +42,6 @@
     justify-content: center;
     align-items: center;
 }
-
 .container span{
     margin-right: 4rem;
     font-weight: bold;
@@ -48,24 +49,23 @@
     color: #B1D0E0;
     border: 5px solid #000000;
 }
-
 #hours{
     padding:6rem;
     border-radius: 10rem;
     font-size: 60pt;
 }
-
 #minutes{
     padding: 4rem;
     border-radius: 8rem;
     font-size: 40pt;
 }
-
 #seconds{
     padding: 2rem;
     border-radius: 6rem;
     font-size: 20pt;
 }
+
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -122,21 +122,12 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-    .container {
-        /* background-color: red; */
-    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    .container {
-        /* background-color: violet; */
-    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .container {
-        /* background-color: yellow; */
-    }
 }
