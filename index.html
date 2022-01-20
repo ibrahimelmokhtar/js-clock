@@ -10,13 +10,18 @@
     <meta name="description" content="Simple JavaScript Digital Clock">
 
     <link rel="icon" type="image/svg" href="icons/clock-solid.svg">
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Digital Clock</title>
 </head>
 <body>
-    <header id="logo">
+    <header class="logo__container">
         <h1>
-            <a href="https://www.linkedin.com/in/ibrahimelmokhtar/" target="_blank">Mokhtar</a>
+            <a href="https://www.linkedin.com/in/ibrahimelmokhtar/" target="_blank" id="logo">
+                <i class="fab fa-linkedin fa-2x"></i>
+                <span>Mokhtar</span>
+            </a>
         </h1>
     </header>
 
@@ -26,6 +31,6 @@
         <span id="seconds">00</span>
     </div>
 
-    <script src="app.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
