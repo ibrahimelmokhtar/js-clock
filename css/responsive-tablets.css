@@ -1,0 +1,29 @@
+
+/* Tablet devices */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+
+    .logo__container {
+        margin: 1rem;
+    }
+
+
+    .container {
+        flex-direction: row;
+    }
+
+
+    #hours{
+        padding:5rem;
+    }
+
+
+    #minutes{
+        padding: 3rem;
+    }
+
+
+    #seconds{
+        padding: 1rem;
+    }
+}
